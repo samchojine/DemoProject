@@ -10,6 +10,7 @@
 		1401D7B123D5408500FF8446 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D7B023D5408500FF8446 /* HomeController.m */; };
 		1401D7B423D541B000FF8446 /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D7B323D541B000FF8446 /* CategoryController.m */; };
 		1401D7B723D5424800FF8446 /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D7B623D5424800FF8446 /* MeController.m */; };
+		1401D7BC23D545D800FF8446 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D7BB23D545D800FF8446 /* BaseController.m */; };
 		141BC10223BD9C1B00823BA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 141BC10123BD9C1B00823BA4 /* AppDelegate.m */; };
 		141BC10823BD9C1B00823BA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141BC10723BD9C1B00823BA4 /* ViewController.m */; };
 		141BC10B23BD9C1B00823BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141BC10923BD9C1B00823BA4 /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 		1401D7B323D541B000FF8446 /* CategoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryController.m; sourceTree = "<group>"; };
 		1401D7B523D5424800FF8446 /* MeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
 		1401D7B623D5424800FF8446 /* MeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
+		1401D7BA23D545D800FF8446 /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		1401D7BB23D545D800FF8446 /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
 		141BC0FD23BD9C1B00823BA4 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		141BC10023BD9C1B00823BA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		141BC10123BD9C1B00823BA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +64,15 @@
 			path = Classs;
 			sourceTree = "<group>";
 		};
+		1401D7B923D545C200FF8446 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1401D7BA23D545D800FF8446 /* BaseController.h */,
+				1401D7BB23D545D800FF8446 /* BaseController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		141BC0F423BD9C1B00823BA4 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,7 @@
 		141BC0FF23BD9C1B00823BA4 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				1401D7B923D545C200FF8446 /* Base */,
 				1401D7AE23D5403100FF8446 /* Classs */,
 				141BC10023BD9C1B00823BA4 /* AppDelegate.h */,
 				141BC10123BD9C1B00823BA4 /* AppDelegate.m */,
@@ -165,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1401D7B123D5408500FF8446 /* HomeController.m in Sources */,
+				1401D7BC23D545D800FF8446 /* BaseController.m in Sources */,
 				1401D7B723D5424800FF8446 /* MeController.m in Sources */,
 				1401D7B423D541B000FF8446 /* CategoryController.m in Sources */,
 				141BC10823BD9C1B00823BA4 /* ViewController.m in Sources */,
